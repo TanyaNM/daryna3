@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+}
+
+footer{
+    background-color: rgb(194, 57, 80);
+    text-align: center;
+   
+}
+footer img{
+    margin:15px;
+
+}
+nav{
+    text-align: center;
+   
+
+
+}
+nav a{
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid red;
+    background-color: rgb(66, 5, 5);
+    color:aliceblue;
+    text-decoration: none;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+.video{
+    background-color: brown;
+}
+nav a:hover{
+    background-color: rgb(3, 0, 0);
+}
+.vidos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.vidos iframe{
+    margin: 5px;
+    border: 4px double black;
+}
